@@ -14,7 +14,9 @@ let eight =document.querySelector(".eight");
 let eren=document.querySelector(".eren");
 let mikasa=document.querySelector(".mikasa");
 let levi=document.querySelector(".levi");
+let reiner=document.querySelector(".reiner");
 let erwin=document.querySelector(".erwin");
+
 
 
 let input1=document.querySelector(".question1");
@@ -28,6 +30,8 @@ eren.style.display= "none";
 mikasa.style.display= "none";
 levi.style.display= "none";
 erwin.style.display= "none";
+reiner.style.display= "none";
+
 
 
 
@@ -89,6 +93,28 @@ eren.style.display = "block"
         mikasa.style.display = "block"
                 
             }
+            if( question1 === "one"){
+
+eren.style.display = "block"
+        
+    }
+
+ if( question1 === "two"){
+
+        mikasa.style.display = "block"
+                
+            }
+
+if( question1 === "three"){
+
+     reiner.style.display = "block"
+                        
+         }
+if( question1 === "four"){
+
+    levi.style.display = "block"
+                               
+         }
 }
 
 six.onclick=function(){
